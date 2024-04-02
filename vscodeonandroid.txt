@@ -1,5 +1,7 @@
 VSCode on Android
 
+I personally use TrebEdit on Android, but if VSCode is needed, it installed fine for me on Android.
+
 https://www.codewithharry.com/blogpost/install-vs-code-in-android/
 
 Install Termux app
