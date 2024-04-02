@@ -1,3 +1,5 @@
+// Expressions //
+
 function printGreeting(name) {
     console.log(`Welcome to my walkthrough. My name is ${name}`);
 }
