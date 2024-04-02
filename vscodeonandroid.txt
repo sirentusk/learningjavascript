@@ -1,0 +1,33 @@
+VSCode on Android
+
+https://www.codewithharry.com/blogpost/install-vs-code-in-android/
+
+Install Termux app
+open Termux
+pkg update
+pkg upgrade
+pkg install proot-distro
+proot-distro list
+proot-distro install ubuntu
+proot-distro login ubuntu
+
+apt update
+apt upgrade
+apt install wget
+wget https://github.com/coder/code-server/releases/download/v4.16.1/code-server-4.16.1-linux-arm64.tar.gz
+tar -xvf ./code-server-4.16.1-linux-arm64.tar.gz
+cd code-server-4.16.1-linux-arm64
+cd bin
+export PASSWORD="password"
+./code-server
+
+loads at: localhost:8080 in browser
+
+To use again:
+
+open Termux
+root-distro login ubuntu
+cd code-server-4.16.1-linux-arm64
+cd bin
+export PASSWORD="password"
+​./code-server
