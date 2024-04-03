@@ -17,3 +17,19 @@ parent
 child
 first child
 last child
+
+<p id="news">Please click the button to get the news</p>        
+<button onclick="newsUpdate()">Get News</button>        
+
+function newsUpdate() {
+  const para = document.getElementById("news")
+        
+  // Log to console - the browser console
+        
+  console.log(para);
+  console.log(para.textContent);   
+        
+  // Grab the news
+        
+  para.textContent = "Here are the latest news headlines";                   
+}
