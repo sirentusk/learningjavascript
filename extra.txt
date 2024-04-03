@@ -8,6 +8,9 @@ Put Defer in the start to delay the script.
 
 DOM = Document Object Model - it means page tree, like <html> <head> <body> etc.
 
+
+Declare Variables (containers):
+
 var = can be used globally
 let/const = can only be used within the same block
 let = can be changed
