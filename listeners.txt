@@ -1,0 +1,19 @@
+// Listeners //
+
+document.getElementByID(<id string>);
+document.getElementByTag(<tag string>);
+document.getElementByClassName(<class string>);
+document.getElementByName(<name string>);
+document.getElementByDiv(<div string>);
+document.getElementByH1(<h1 string>);
+
+margin
+border
+padding
+content
+
+grandparent
+parent
+child
+first child
+last child
