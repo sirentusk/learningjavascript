@@ -3,7 +3,7 @@
 Put Defer in the start to delay the script.
 
 <head>
-<script defer src="main.js"></script><script defer src="main.js"></script>
+<script defer src="main.js"></script>
 </head>
 
 DOM = Document Object Model - it means page tree, like <html> <head> <body> etc.
