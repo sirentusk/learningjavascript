@@ -1,6 +1,6 @@
-VSCode on Android
+Virtualbox: $12 for 100 hours. https://app.apponfly.com
 
-I personally use TrebEdit on Android, but if VSCode is needed, it installed fine for me on Android.
+VSCode on Android
 
 https://www.codewithharry.com/blogpost/install-vs-code-in-android/
 
