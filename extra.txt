@@ -1,7 +1,5 @@
 // Extra //
 
-Developer code on Android: https://www.browserstack.com/guide/test-local-website-on-mobile
-
 Put Defer in the start to delay the script.
 
 <head>
