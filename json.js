@@ -31,3 +31,48 @@ printBook(Animal_Farm);
 function printBook(Animal_Farm) {
     console.log(`This book is ${Animal_Farm}`);
 }
+
+const fs = require("fs");
+function printFile (err, data) {
+console.log(data.toString());
+}
+
+fs.readFile("[filename].txt", printFile);
+
+async function [function name] ([arguments]) {
+    ...
+    let [variable name] = await [promise object];
+    ...
+}
+
+// Get JSON files
+
+fetch('./flights.json') // Get the JSON file data
+  .then(response => response.json()) // Give a promise from the file
+    if (!response.ok) { // Guard Clause (if 404/500 error message, stop the function)
+      console.log('Problem'); // Print the error in console
+      return; // Stop the function if false
+  }
+  
+  .then (data => { // Parse the data
+    console.log(data); // Print the data in console
+  });
+
+  .catch(error => { // Check for errors
+    console.log(error); // Print errors in console
+  })
+
+fetch('./airports.json') // Get the JSON file data
+  .then(response => response.json()) // Give a promise from the file
+    if (!response.ok) { // Guard Clause (if 404/500 error message, stop the function)
+      console.log('Problem'); // Print the error in console
+      return; // Stop the function if false
+  }
+  
+  .then (data => { // Parse the data
+    console.log(data); // Print the data in console
+  });
+
+  .catch(error => { // Check for errors
+    console.log(error); // Print errors in console
+  })
