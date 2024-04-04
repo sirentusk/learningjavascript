@@ -1,0 +1,20 @@
+// Variables
+
+A variable is a container.
+
+var = can be used globally
+let/const = can only be used within the same block
+let = can be changed
+const = cannot be changed once made
+
+const = constant, can't change
+let = can change
+let <variablename> = "";
+const <variablename> = "";
+<variable name> = <variable name> <operator> <value>;
+one = one + 1;
+
+concatenation = "some" + "thing"
+
+​let one = 1'
+one + 1;
