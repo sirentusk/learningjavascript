@@ -1,0 +1,4 @@
+// Operators and Operands
+
+operands + - * /
+operators 11 = x + 5
