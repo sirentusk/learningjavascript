@@ -16,7 +16,7 @@ students --; // -1
 
 operator sequence:
 1. parenthesis ()
-2. exponents **
+2. exponents ** % etc
 3. multiplication and division and modulo
 4. addition and subtraction
 
