@@ -1,6 +1,7 @@
 // Variables
 
 A variable is a container.
+Variable acts like the value it contains, like algebra. 1 + x = 3. 1 + const = 3.
 
 var = can be used globally
 let/const = can only be used within the same block
