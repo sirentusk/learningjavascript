@@ -2,3 +2,22 @@
 
 operands + - * /
 operators 11 = x + 5
+
+let students = 30;
+
+students += 1
+students = students + 1;
+students -+ 1 // etc etc...
+students = students % 2; // remainder (31 / 2 = 15 with 1 remainder)
+students %= 2; // check how many columns you need (make it 0)
+
+students ++; // +1
+students --; // -1
+
+operator sequence:
+1. parenthesis ()
+2. exponents **
+3. multiplication and division and modulo
+4. addition and subtraction
+
+console.log(students);
