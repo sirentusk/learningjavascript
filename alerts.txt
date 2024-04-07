@@ -1,0 +1,4 @@
+// Alerts
+
+// console.log(`Woof`); // Print in console
+// window.alert(`This is an alert`); // Popup Window
