@@ -1,4 +1,4 @@
-// Expressions //
+// Prompts
 
 function printGreeting(name) {
     console.log(`Welcome to my walkthrough. My name is ${name}`);
@@ -13,3 +13,9 @@ function printGreeting(name) {
 const firstName = "Siren";
 let myName = firstName + " " + "Watcher";
 printGreeting(myName);
+
+let username;
+
+username = window.prompt(`What's your username?`);
+
+console.log(username)
